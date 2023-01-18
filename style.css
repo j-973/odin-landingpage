@@ -6,3 +6,44 @@ body {
     display: flex;
     flex: 1 1 0;
 }
+
+
+/* COLORS AND FONT STYLES */
+.dark-bg {
+    color: #1F2937;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.cta-color {
+    color: #3882F6;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote-bg {
+    color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+}
