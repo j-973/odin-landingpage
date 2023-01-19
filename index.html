@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
     <title>- Landing Page -</title>
 </head>
 <body>
-<header>
-    <h2>Header logo</h2>
-    <nav>
-        <ul>
-            <li><a>header link one</a></li>
-            <li><a>header link two</a></li>
-            <li><a>header link three</a></li>
-        </ul>
-    </nav>
+<header class="dark-bg">
+    <div class="headerleft">
+        <h2 class="logo-text">Header Logo</h2>
+    </div>
+    <div class="headerright">
+        <nav>
+            <ul>
+                <li class="hero-secondary"><a>header link one</a></li>
+                <li class="hero-secondary"><a>header link two</a></li>
+                <li class="hero-secondary"><a>header link three</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <main>
-    <div>
+    <section>
         <h1>This website is awesome</h1>
         <p>This website has some subtext that goes here under the main title.
             It's a smaller font and the color is a lower contrast.
@@ -30,8 +37,8 @@
             src=""
             alt="this is a placeholder for an image">
         </figure>
-    </div>
-    <div>
+    </section>
+    <section>
         <h1>Some random information.</h1>
         <div class="infowrap">
             <div class="infoitem">
@@ -51,8 +58,8 @@
               <div class="infotext">This is some subtext under an illustration or image</div>
             </div>
           </div>
-    </div>
-    <div>
+    </section>
+    <section>
         <blockquote>
             This is an inspiring quote, or a testimonial from a cutomer.
             Maybe it's just filling up space, or maybe people will actually read it. 
@@ -61,16 +68,16 @@
             And that it looks nice.<br>
             - Thor, God of Thunder
         </blockquote>
-    </div>
-    <div>
+    </section>
+    <section>
         <div>
             <h3>Call to action! It's time!</h3>
             <p>Sign up for our products by clicking that button right over there!</p>
             <button>Sign Up</button>
         </div>
-    </div> 
+    </section> 
 </main>
-<footer>
+<footer class="dark-bg hero-secondary">
     <p>Copyright &copy; The Odin Project 2021</p>
 </footer>
 </body>

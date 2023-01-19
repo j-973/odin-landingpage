@@ -6,11 +6,46 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+nav li {
+    padding: 10px;
 }
 
 /* COLORS AND FONT STYLES */
 .dark-bg {
-    color: #1F2937;
+    background-color: #1F2937;
 }
 
 .hero-main {
@@ -27,6 +62,9 @@ body {
 .logo-text {
     font-size: 24px;
     color: #F9FAF8;
+
+    /*in addition to style guide */
+    margin: 0px;
 }
 
 .cta-color {
@@ -40,10 +78,11 @@ body {
 }
 
 .quote-bg {
-    color: #E5E7EB;
+    background-color: #E5E7EB;
 }
 
 .quote-text {
     font-size: 36px;
     color: #1F2937;
+    font-style: italic;
 }
