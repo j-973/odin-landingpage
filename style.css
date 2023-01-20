@@ -11,7 +11,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px;
 }
@@ -21,7 +21,7 @@ nav {
 }
 
 a {
-    text-decoration: none;
+    color: #E5E7EB;
 }
 
 footer {
@@ -43,22 +43,57 @@ nav li {
     padding: 10px;
 }
 
+section button {
+    padding: 5px 30px;
+    border: 0;
+    border-radius: 5px;
+}
+
+section.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10px;
+}
+
+    div.heroleft {
+        display: flex;
+        flex: 0 1 25%;
+        flex-direction: column;
+    }
+
+        p.hero-secondary {
+            margin: 5px 0px;
+        }
+
+    figure.heroright {
+        display: flex;
+        flex: 0 1 fit-content;
+        color: #F9FAF8;
+        background-color: slategray;
+        padding: 5% 7%;
+    }
+
+        button.cta-color.hero-secondary {
+            align-self: flex-start;
+        }
+
 /* COLORS AND FONT STYLES */
 .dark-bg {
     background-color: #1F2937;
 }
-
 .hero-main {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-}
 
+    /*in addition to style guide */
+    margin-bottom: 0px;
+}
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB
 }
-
 .logo-text {
     font-size: 24px;
     color: #F9FAF8;
@@ -66,21 +101,17 @@ nav li {
     /*in addition to style guide */
     margin: 0px;
 }
-
 .cta-color {
-    color: #3882F6;
+    background-color: #3882F6;
 }
-
 .info-header {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
 }
-
 .quote-bg {
     background-color: #E5E7EB;
 }
-
 .quote-text {
     font-size: 36px;
     color: #1F2937;
