@@ -9,6 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* header and navbar */
 header {
     display: flex;
     justify-content: space-evenly;
@@ -43,6 +44,7 @@ nav li {
     padding: 10px;
 }
 
+/* hero text section */
 section button {
     padding: 5px 30px;
     border: 0;
@@ -74,6 +76,44 @@ section.hero {
         padding: 5% 7%;
     }
 
+/* section - flex images */
+section.somerandominfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 450px;
+}
+
+h1.somerandominfo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div.infowrap {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+div.infoitem {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    text-align: center;
+  }
+
+    div.infoitem img {
+        flex: 0 1 150px;
+        width: 150px;
+        border: 4px solid #3882F6;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    div.infotext {
+        color: rgba(0,0,0, 0.75)
+    }
+  
         button.cta-color.hero-secondary {
             align-self: flex-start;
         }
