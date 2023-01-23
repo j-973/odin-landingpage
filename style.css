@@ -51,6 +51,14 @@ section button {
     border-radius: 5px;
 }
 
+.extra-bold {
+    font-weight: 900;
+}
+
+.italics {
+    font-style: italic;
+}
+
 section.hero {
     display: flex;
     justify-content: center;
@@ -114,44 +122,89 @@ div.infotext {
     color: rgba(0,0,0, 0.75);
 }
 
-    /* quote section */
-    section.quote-bg {
-        display: flex;
-        flex: 1 1 0;
-        justify-content: center;
-        align-items: center;
-        height: 450px;
-    }
+/* section - quote */
+section.quote-bg {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
 
-    div.quotewrap {
-        display: flex;
-        flex: 0 1 800px;
-        align-items: center;
-        flex-wrap: wrap;
-        padding: 5px;
-        margin: 20px;
-    }
+div.quotewrap {
+    display: flex;
+    flex: 0 1 800px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 20px;
+}
 
-    p.quote-text {
-        padding: 0px;
-        margin: 0px;
-    }
+p.quote-text {
+    padding: 0px;
+    margin: 0px;
+}
 
-    div.quote-attrib {
-        display: flex;
-        flex: 1 1 0;
-        justify-content: flex-end;
-    }
+div.quote-attrib {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: flex-end;
+}
 
-    p.quote-attrib {
-        font-size: 22px;
-        font-weight: 900;
-        font-style: normal;
-        color:#1F2937;
-        padding: 5px;
-        margin: 5px;
-    }
-  
+p.quote-attrib {
+    font-size: 22px;
+    font-style: normal;
+    color:#1F2937;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* section - call to action */
+section.cta {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+div.cta-wrap {
+    display: flex;
+    flex: 0 1 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    flex-wrap: wrap;
+    padding: 40px 5px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+div.cta-text {
+    padding: 0px;
+    margin: 0px;
+}
+
+h3.cta-text{
+    font-size: 22px;
+    color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+}
+
+p.cta-text {
+    font-size: 18px;
+    color: rgba(229, 231, 235, 0.75); /*#E5E7EB as rgba to add alpha/transparency*/
+    margin: 0px;
+}
+
+        button.cta-text {
+            align-self: center;
+            background-color: #3882F6;
+            color: #E5E7EB;
+            border: 2px solid #E5E7EB;
+        }
+
         button.cta-color.hero-secondary {
             align-self: flex-start;
         }
