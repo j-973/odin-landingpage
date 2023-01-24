@@ -44,11 +44,8 @@ nav li {
     padding: 10px;
 }
 
-/* hero text section */
-section button {
-    padding: 5px 30px;
-    border: 0;
-    border-radius: 5px;
+a.attrib {
+    color: #000000;
 }
 
 .extra-bold {
@@ -57,6 +54,13 @@ section button {
 
 .italics {
     font-style: italic;
+}
+
+/* hero text section */
+section button {
+    padding: 5px 30px;
+    border: 0;
+    border-radius: 5px;
 }
 
 section.hero {
@@ -81,8 +85,12 @@ section.hero {
         display: flex;
         flex: 0 1 fit-content;
         color: #F9FAF8;
-        background-color: slategray;
-        padding: 100px 150px;
+        max-height: 80%;
+        max-width: 80%;
+    }
+
+    .heroright img {
+        width: fit-content;
     }
 
 /* section - flex images */
